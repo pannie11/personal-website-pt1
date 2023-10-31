@@ -1,4 +1,5 @@
-header, footer {
+header,
+footer {
     display: inline-flex;
     background-color: gray;
     align-items: center;
@@ -12,8 +13,3 @@ nav {
     text-align: end;
     font-size: x-large;
 }
-
-
-
-
-
