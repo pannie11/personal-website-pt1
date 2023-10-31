@@ -1,0 +1,17 @@
+header, footer {
+    display: inline-flex;
+    background-color: gray;
+    align-items: center;
+}
+
+header {
+    gap: 75vw;
+}
+
+
+nav {
+    text-align: end;
+    font-size: x-large;
+}
+
+
