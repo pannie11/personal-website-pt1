@@ -14,7 +14,7 @@ body {
 
 div,
 section,
-.h1 {
+.h1, form {
     padding: 10px;
 }
 
