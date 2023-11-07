@@ -12,7 +12,9 @@ body {
     padding: 0;
 }
 
-div, section, .h1 {
+div,
+section,
+.h1 {
     padding: 10px;
 }
 
