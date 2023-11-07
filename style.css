@@ -1,15 +1,33 @@
-header,
-footer {
-    display: inline-flex;
-    background-color: gray;
+header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: gray;
+    margin: 0;
+    padding: 10px;
 }
 
-header {
-    gap: 76.5vw;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div, section, .h1 {
+    padding: 10px;
 }
 
 nav {
     text-align: end;
     font-size: x-large;
+    padding: 10px;
+}
+
+section {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+section:nth-child(odd) {
+    background: aliceblue;
 }
